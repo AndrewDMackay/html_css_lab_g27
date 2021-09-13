@@ -8,30 +8,18 @@ body > header {
 }
 
 #logo {
-    font-family: "Fredoka One", sans-serif;
+    float: right;
     font-size: 18px;
     background-color: dodgerblue;
 }
 
-body > header > nav > ul {
+header > nav > ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
 }
 
-body > header > nav > li {
-    float: right;
+header > nav > ul > li{
+    display: inline-block;
 }
-
-body > header > nav > li a {
-    float: right;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-  }
 
 body > footer {
     background-color: dodgerblue;
