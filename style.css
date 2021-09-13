@@ -29,6 +29,7 @@ header > nav > ul > li{
     display: inline-block;
     font-size: 10px;
     padding: 6px;
+    color: dodgerblue;
 }
 
 header > nav > ul > li a {
@@ -62,7 +63,6 @@ body > main > article {
 body > section {
     padding: 25px, 25px, 25px, 25px;
     float: left;
-    
 }
 
 #login-email-password {
@@ -76,15 +76,13 @@ body > section {
     overflow: hidden;
 }
 
-#lates-section > h4 {
+#latest-section > h4 {
     margin-left: 15px;
-    padding-top: 20px;
-    display: block;
+    display: inline-block;
 }
 
 #latest-section > p {
     margin-left: 15px;
-    padding: 10px;
     display: block;
 }
 
