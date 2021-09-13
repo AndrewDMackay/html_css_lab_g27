@@ -37,6 +37,10 @@ header > nav > ul > li a {
 
 body > footer {
     background-color: dodgerblue;
+    font-family: "Fredoka One", sans-serif;
+    font-size: 10px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 body > footer > p {
@@ -57,13 +61,25 @@ body > main > article {
 
 body > section {
     padding: 25px, 25px, 25px, 25px;
+    float: left;
+    
 }
 
-#login {
+#login-email-password {
     float: left;
     width: 30%;
+    padding-bottom: 150px;
 }
 
-#latest {
+#latest-section {
     padding-top: 2px;
+    float: inherit;
+}
+
+#comments-submit-button {
+    float: right;
+}
+
+#comments-section {
+
 }
