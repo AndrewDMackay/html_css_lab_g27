@@ -18,7 +18,7 @@ header {
     background-color: dodgerblue;
     float: right;
     padding: 15px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 header > nav > ul {
@@ -29,7 +29,6 @@ header > nav > ul > li{
     display: inline-block;
     font-size: 10px;
     padding: 6px;
-    color: dodgerblue;
 }
 
 header > nav > ul > li a {
@@ -69,6 +68,10 @@ body > section {
     float: left;
     width: 30%;
     padding-bottom: 150px;
+}
+
+#login-email-password > nav > ul > li a {
+    color: mediumblue;
 }
 
 #latest-section {
