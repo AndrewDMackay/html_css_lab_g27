@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-body > header {
+header {
     background-color: dodgerblue;
     color: white;
     margin: 0;
@@ -35,7 +35,7 @@ header > nav > ul > li a {
     font-size: 11px;
 }
 
-body > footer {
+footer {
     background-color: dodgerblue;
     font-family: "Fredoka One", sans-serif;
     font-size: 10px;
@@ -43,7 +43,7 @@ body > footer {
     align-items: center;
 }
 
-body > footer > p {
+footer > p {
     padding: 16px;
     color: white;
     text-align: center;
@@ -73,7 +73,19 @@ body > section {
 
 #latest-section {
     padding-top: 2px;
-    float: inherit;
+    justify-content: space-between;
+}
+
+#latest-section > img {
+    float: left;
+    padding-top: 2px;
+    padding-right: 10px;
+    justify-content: space-between;
+    
+}
+
+#main-article {
+    clear: both;
 }
 
 #comments-submit-button {
