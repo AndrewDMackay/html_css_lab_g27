@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 body > header {
     background-color: dodgerblue;
     color: white;
@@ -5,14 +9,15 @@ body > header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 25px, 25px, 25px, 25px;
 }
 
 #logo {
     background-color: dodgerblue;
     float: right;
     font-family: "Fredoka One", sans-serif;
-    padding: 10px;
-    font-size: 18px;
+    padding: 15px;
+    font-size: 17px;
 }
 
 header > nav > ul {
@@ -22,14 +27,13 @@ header > nav > ul {
 header > nav > ul > li{
     display: inline-block;
     font-size: 10px;
-    padding: 5px;
+    padding: 6px;
 }
 
 header > nav > ul > li a {
     color: white;
-    font-size: 10px;
+    font-size: 11px;
 }
-
 
 body > footer {
     background-color: dodgerblue;
@@ -49,4 +53,17 @@ body > main {
 
 body > main > article {
     margin: auto;
+}
+
+body > section {
+    padding: 25px, 25px, 25px, 25px;
+}
+
+#login {
+    float: left;
+    width: 30%;
+}
+
+#latest {
+    padding-top: 2px;
 }
