@@ -76,17 +76,21 @@ body > section {
     overflow: hidden;
 }
 
-#latest-section > h4 {
-    margin-left: 15px;
+#latest-section > div {
+    overflow: hidden;
     display: inline-block;
 }
 
-#latest-section > p {
+#latest-section > div > h4 {
+    margin-left: 15px;
+}
+
+#latest-section > div > p {
     margin-left: 15px;
     display: block;
 }
 
-#latest-section > img {
+#latest-section > div > img {
     float: left;
     margin-right: 15px;
     padding-top: 5px;
