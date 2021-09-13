@@ -1,16 +1,18 @@
 body > header {
-    margin: auto;
     background-color: dodgerblue;
     color: white;
+    margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 #logo {
-    float: right;
-    font-size: 18px;
     background-color: dodgerblue;
+    float: right;
+    font-family: "Fredoka One", sans-serif;
+    padding: 10px;
+    font-size: 18px;
 }
 
 header > nav > ul {
@@ -19,7 +21,15 @@ header > nav > ul {
 
 header > nav > ul > li{
     display: inline-block;
+    font-size: 10px;
+    padding: 5px;
 }
+
+header > nav > ul > li a {
+    color: white;
+    font-size: 10px;
+}
+
 
 body > footer {
     background-color: dodgerblue;
