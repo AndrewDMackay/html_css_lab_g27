@@ -1,0 +1,50 @@
+body > header {
+    margin: auto;
+    background-color: dodgerblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-family: "Fredoka One", sans-serif;
+    font-size: 18px;
+    background-color: dodgerblue;
+}
+
+body > header > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body > header > li {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+body > footer {
+    background-color: dodgerblue;
+}
+
+body > footer > p {
+    padding: 16px;
+    color: white;
+    text-align: center;
+}
+
+body > main {
+    background-color: white;
+    margin: auto;
+    width: 70%;
+}
+
+body > main > article {
+    margin: auto;
+}
